@@ -1,7 +1,10 @@
 ---
 title: "AI Text Generation"
 description: |
-  Welcome to the website.
+  Introduction:
+  -	For this project I would like to explore text generation with AI and see what it can create given a prompt from songs to stories to poems. Ideally by the end of the project I would like to be able to create descriptions of environments given specific prompts of what to describe. There are many powerful AI tools that I can look to get data for natural language processing: Google cloud AI, SciKit Learn, Keras are the primary ones that I will look to initially. 
+  In this project, I will have to investigate into aspects of AI not previously learned in the machine learning class. Learning about natural language processing, word based text generation, the datasets required for such text generation, as well as the possible implementation of image generation based on the text generated.
+  
 site: distill::distill_website
 ---
 

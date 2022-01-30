@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-01-29T21:00:48-07:00"
+    },
+    {
+      "path": "index.html",
+      "title": "AI Text Generation",
+      "description": "Welcome to the website.\n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-01-29T21:01:18-07:00"
+    }
+  ],
+  "collections": []
+}

@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\nInitial research into Neural Networks has lead to a change in the overall scope of the project. Currently the scope is set on creating several text generators based on different genres of poetry, performing sentiment analysis and generating poetry given a prompt and an overall mood for the poem. In order to collect a large enough data set to train these networks on I’ll be using the website project gutenberg to collect large amounts of data on different genres and authors of poetry. Having 10 to 15 books of poetry should be enough to have a well trained model for each genre, although this will depend on the length of the book. Given the chances of finding large enough sources it will take a bit of time to narrow down what books to choose, as well as get a good spread of writing style and authors to form a good training data set.\nAs far as creating the neural network goes, there are multiple routes that can be taken. Multiple different pre-made networks exist that can be used, but creating a network of my own is also an option. None of these have been explored yet as I am primarily concerned with data collection at this point in the process.\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-02-26T18:57:43-07:00",
+    "last_modified": "2022-03-15T10:18:05-06:00",
     "input_file": {}
   }
 ]

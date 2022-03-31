@@ -1,0 +1,25 @@
+---
+title: "Neural Network Creation and Sentiment Analysis"
+description: |
+  After collecting a decent amount of data from various authors I need to create the network for a word-based text generator, as well as start researching how sentiment analysis works. 
+author:
+  - name: Nate Johnson
+    url: {}
+date: 2022-03-25
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+My first step in this section of the project is creating the network and training it. So far it has been trial and error based on what training data I am using as well as the number of epochs being used. After those 2 parameters have been tweaked well enough I can go into the finer details of the network. The overall structure of the network has been based off of a network that I found online with a few tweaks of my own. Early testing has shown what my main hurdle in this phase will probably be, and that is overfitting my model. This will result in my nework not generating text but rather just spitting out the training data with little to no variation. 
+
+Currently overfitting is very present in the model, this has lead me to think more about what kind of data I am using in the first place. My current hunch is that there are so many different styles in the many aspects of poetry that I am taking from. These styles are not a good match for each other but its something that I want to try and work around. Additionally, the way that my model is made removes all punctuation from the source text, so generated text comes out without the right cadence of the training data.  
+
+My second step is figuring out how sentiment analysis works. My goal is to perform this analysis on the training data as well as the generated text to see if the results are similar. So far the main issue is that most resources show that a set of data is required to denote which words are positive and which words are negative. Other sources state that this can be done through additional machine learning algorithms but it is another complex process to create an effictive model for different sets of data. 
+

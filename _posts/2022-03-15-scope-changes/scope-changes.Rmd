@@ -1,0 +1,23 @@
+---
+title: "Scope Changes"
+description: |
+  Due to more research and time contraints I have had to greatly reduce what my end deliverable will be.
+author:
+  - name: Nate Johnson
+    url: {}
+date: 2022-03-15
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+  After more research into the subject I've constrained the scope of my project down to something much more simple. There are 2 main goals now. The first is to create a word-based neural network that will generate text. The second is to use sentiment analysis on both the training data for the model as well as the text that is generated from the model. The end result will show whether or not the model created something that was close to the writings used in the training data set. 
+  
+  After looking into neural networks more it seems that using a pre-made network might be better to use than creating my own to both reduce the amount of time needed to create the network as well as removing the testing involved with adjusting layers, hyperparameters, learning rates, and so on. If I find that there is enough time to do so I definitely want to create my own network, but for now using a pre-made asset seems like the safest move. 
+
+

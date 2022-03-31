@@ -1,5 +1,39 @@
 [
   {
+    "path": "posts/2022-03-15-neural-network-creation-and-sentiment-analysis/",
+    "title": "Neural Network Creation and Sentiment Analysis",
+    "description": "After collecting a decent amount of data from various authors I need to create the network for a word-based text generator, as well as start researching how sentiment analysis works.",
+    "author": [
+      {
+        "name": "Nate Johnson",
+        "url": {}
+      }
+    ],
+    "date": "2022-03-25",
+    "categories": [],
+    "contents": "\nMy first step in this section of the project is creating the network and training it. So far it has been trial and error based on what training data I am using as well as the number of epochs being used. After those 2 parameters have been tweaked well enough I can go into the finer details of the network. The overall structure of the network has been based off of a network that I found online with a few tweaks of my own. Early testing has shown what my main hurdle in this phase will probably be, and that is overfitting my model. This will result in my nework not generating text but rather just spitting out the training data with little to no variation.\nCurrently overfitting is very present in the model, this has lead me to think more about what kind of data I am using in the first place. My current hunch is that there are so many different styles in the many aspects of poetry that I am taking from. These styles are not a good match for each other but its something that I want to try and work around. Additionally, the way that my model is made removes all punctuation from the source text, so generated text comes out without the right cadence of the training data.\nMy second step is figuring out how sentiment analysis works. My goal is to perform this analysis on the training data as well as the generated text to see if the results are similar. So far the main issue is that most resources show that a set of data is required to denote which words are positive and which words are negative. Other sources state that this can be done through additional machine learning algorithms but it is another complex process to create an effictive model for different sets of data.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-03-31T17:06:52-06:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-03-15-scope-changes/",
+    "title": "Scope Changes",
+    "description": "Due to more research and time contraints I have had to greatly reduce what my end deliverable will be.",
+    "author": [
+      {
+        "name": "Nate Johnson",
+        "url": {}
+      }
+    ],
+    "date": "2022-03-15",
+    "categories": [],
+    "contents": "\nAfter more research into the subject I’ve constrained the scope of my project down to something much more simple. There are 2 main goals now. The first is to create a word-based neural network that will generate text. The second is to use sentiment analysis on both the training data for the model as well as the text that is generated from the model. The end result will show whether or not the model created something that was close to the writings used in the training data set.\nAfter looking into neural networks more it seems that using a pre-made network might be better to use than creating my own to both reduce the amount of time needed to create the network as well as removing the testing involved with adjusting layers, hyperparameters, learning rates, and so on. If I find that there is enough time to do so I definitely want to create my own network, but for now using a pre-made asset seems like the safest move.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-03-16T18:13:06-06:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-02-08-initial-research/",
     "title": "Initial Research and Dataset Gathering",
     "description": "Initial research into text generation AI, neural networks, and sentiment analysis.",
@@ -13,7 +47,24 @@
     "categories": [],
     "contents": "\nInitial research into Neural Networks has lead to a change in the overall scope of the project. Currently the scope is set on creating several text generators based on different genres of poetry, performing sentiment analysis and generating poetry given a prompt and an overall mood for the poem. In order to collect a large enough data set to train these networks on I’ll be using the website project gutenberg to collect large amounts of data on different genres and authors of poetry. Having 10 to 15 books of poetry should be enough to have a well trained model for each genre, although this will depend on the length of the book. Given the chances of finding large enough sources it will take a bit of time to narrow down what books to choose, as well as get a good spread of writing style and authors to form a good training data set.\nAs far as creating the neural network goes, there are multiple routes that can be taken. Multiple different pre-made networks exist that can be used, but creating a network of my own is also an option. None of these have been explored yet as I am primarily concerned with data collection at this point in the process.\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-03-15T10:18:05-06:00",
+    "last_modified": "2022-03-15T10:39:39-06:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-03-15-test/",
+    "title": "Introduction",
+    "description": "An introducton to my project with the initial scope and goals I hope to achieve by the end of the semester.",
+    "author": [
+      {
+        "name": "Nate Johnson",
+        "url": {}
+      }
+    ],
+    "date": "2022-01-20",
+    "categories": [],
+    "contents": "\nFor this project I would like to explore text generation with AI and see what it can create given a prompt from songs to stories to poems. Ideally by the end of the project I would like to be able to create descriptions of environments given specific prompts of what to describe. There are many powerful AI tools that I can look to get data for natural language processing: Google cloud AI, SciKit Learn, Keras are the primary ones that I will look to initially.\nIn this project, I will have to investigate into aspects of AI not previously learned in the introduction to machine learning class. Learning about natural language processing, word based text generation, the datasets required for such text generation, as well as the possible implementation of image generation based on the text generated.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-03-16T18:13:26-06:00",
     "input_file": {}
   }
 ]
